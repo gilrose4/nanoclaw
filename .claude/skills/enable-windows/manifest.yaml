@@ -1,0 +1,13 @@
+skill: enable-windows
+version: 1.0.0
+description: "Windows platform support for NanoClaw setup, service management, and verification"
+core_version: 0.1.0
+adds: []
+modifies:
+  - setup/platform.ts
+  - setup/service.ts
+  - setup/verify.ts
+  - setup/whatsapp-auth.ts
+structured: {}
+conflicts: []
+depends: []
