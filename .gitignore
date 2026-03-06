@@ -32,6 +32,10 @@ groups/global/*
 .idea/
 .vscode/
 
+#run nanoclaw in windows
+start-nanoclaw.ps1
+start-nanoclaw.sh
+
 # Skills system (local per-installation state)
 .nanoclaw/
 
