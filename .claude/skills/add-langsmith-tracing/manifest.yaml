@@ -1,0 +1,19 @@
+skill: langsmith-tracing
+version: 1.0.0
+description: "LangSmith observability for containerized agents"
+core_version: 0.1.0
+adds: []
+modifies:
+  - src/container-runner.ts
+  - container/agent-runner/src/index.ts
+  - .env.example
+structured:
+  npm_dependencies: {}
+  env_additions:
+    - LANGSMITH_API_KEY
+    - LANGSMITH_PROJECT
+    - LANGSMITH_ENDPOINT
+    - LANGSMITH_TRACING
+conflicts: []
+depends: []
+test: "cd container/agent-runner && npx tsc --noEmit"
